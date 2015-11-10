@@ -1,7 +1,6 @@
 'use strict';
 
 var gulp = require('gulp');
-var rename = require('gulp-rename');
 
 // Build deps
 var sass = require('gulp-sass');
@@ -11,7 +10,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 /* Setup ******/
 var scss = {
-    input : 'sass/**/*.scss',
+    input : 'scss/**/*.scss',
     output: 'css',
     options: {
         errLogToConsole: true,
@@ -30,5 +29,3 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
   gulp.watch(scss.input, ['sass']);
 });
-
-gulp.task('default', ['sass', 'watch']);

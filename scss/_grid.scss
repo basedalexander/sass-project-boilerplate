@@ -4,6 +4,11 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.container {
+  @include clearfix();
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -34,6 +39,7 @@
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  @include clearfix();
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;

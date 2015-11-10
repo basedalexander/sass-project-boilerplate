@@ -1,0 +1,67 @@
+// Variables
+
+// Colors
+
+// Spacing
+//
+
+$spacer:                     1rem;
+$spacer-x:                   $spacer;
+$spacer-y:                   $spacer;
+$border-width:               .0714rem;
+
+
+// Body
+//
+
+$body-bg:                    #fff;
+$body-color:                 #5f5f5f;
+
+
+// Links
+
+$link-color:                 #000;
+$link-hover-color:           #ccc;
+$link-hover-decoration:      underline;
+
+
+// Typography
+//
+
+$font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base:           $font-family-sans-serif;
+
+
+$font-size-root:             14px;
+
+$font-size-base:             1rem;
+$font-size-lg:               1.14rem;
+$font-size-sm:               .92rem;
+$font-size-xs:               .85rem;
+
+$font-size-h1:               2.5rem;
+$font-size-h2:               2rem;
+$font-size-h3:               1.75rem;
+$font-size-h4:               1.5rem;
+$font-size-h5:               1.25rem;
+$font-size-h6:               1rem;
+
+$line-height:                1.5;
+
+$headings-margin-bottom:     ($spacer / 2);
+$headings-font-family:       inherit;
+$headings-font-weight:       500;
+$headings-line-height:       1.1;
+$headings-color:             inherit;
+
+
+$hr-border-color:             #d2cdc9;
+$hr-border-color-2:           #6b6b6a;
+$hr-border-width:             $border-width;
+
+
+// Components
+//
+
